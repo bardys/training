@@ -1,0 +1,16 @@
+group 'com.ciklum'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+    jcentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.0.1'
+}

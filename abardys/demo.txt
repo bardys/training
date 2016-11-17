@@ -1,4 +1,0 @@
-1. Git
-2. Change
-
-4. Something
