@@ -21,10 +21,10 @@ public class Test1 {
 
     }*/
 
-   @Test
+    @Test
     public void openGoogle(){
-       WebDriver driver = new ChromeDriver();
-       driver.get("https://www.google.com.ua");
-       driver.quit();
-   }
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.google.com.ua");
+        driver.quit();
+    }
 }

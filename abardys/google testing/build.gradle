@@ -1,4 +1,4 @@
-group 'com.ciklum'
+group 'Test Google'
 version '1.0'
 
 apply plugin: 'java'
